@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hatena Bookmark Companion 設定</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <main>
+    <header><span class="logo">B!</span><div><h1>Hatena Bookmark Companion</h1><p>Personal OAuth 設定</p></div></header>
+    <section>
+      <h2>Consumer credentials</h2>
+      <p><a href="https://www.hatena.ne.jp/oauth/develop" target="_blank" rel="noopener noreferrer">はてな OAuth 開発者向け設定ページ ↗</a>で自分用の Consumer を登録し、必要な読み書き scope を有効にしてください。</p>
+      <label for="consumer-key">Consumer key</label>
+      <input id="consumer-key" type="text" autocomplete="off" spellcheck="false">
+      <label for="consumer-secret">Consumer secret</label>
+      <input id="consumer-secret" type="password" autocomplete="off" spellcheck="false">
+      <div class="actions"><button id="save" type="button">設定を保存</button><button id="clear" class="subtle" type="button">保存した設定をすべて削除</button></div>
+      <p class="hint">入力した値はこの Chrome プロファイルの storage.local に保存されます。共有端末では利用しないでください。</p>
+    </section>
+    <section>
+      <h2>Hatena 接続</h2>
+      <p id="connection">状態を確認しています…</p>
+      <div class="actions"><button id="connect" type="button">Hatena に接続</button><button id="manual" class="subtle" type="button">確認コードで接続</button><button id="disconnect" class="subtle" type="button">接続解除</button></div>
+      <div id="verifier-area" hidden>
+        <p>はてなの認証画面で許可した後、表示された確認コードを入力してください。</p>
+        <label for="verifier">確認コード</label>
+        <input id="verifier" type="text" autocomplete="off" spellcheck="false">
+        <button id="finish" type="button">接続を完了</button>
+      </div>
+      <p id="status" role="status"></p>
+    </section>
+  </main>
+  <script type="module" src="options.js"></script>
+</body>
+</html>

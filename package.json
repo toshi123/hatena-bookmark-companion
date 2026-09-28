@@ -1,0 +1,12 @@
+{
+  "name": "hatena-bookmark-companion",
+  "version": "0.5.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "linkedom": "^0.18.12"
+  }
+}

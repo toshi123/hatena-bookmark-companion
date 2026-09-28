@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hatena Bookmark Companion</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main>
+    <header class="masthead">
+      <div class="brandline"><span class="mark" aria-hidden="true">B!</span><span>Bookmark Companion</span></div>
+      <button id="refresh" class="icon-button" type="button" title="情報を更新" aria-label="情報を更新">↻</button>
+    </header>
+
+    <section class="page" aria-label="現在のページ">
+      <div class="countline"><strong id="count">—</strong><span>bookmarks</span></div>
+      <h1 id="page-title">読み込み中…</h1>
+      <p id="domain" class="domain"></p>
+    </section>
+
+    <section id="content" aria-label="ブックマークコメント">
+      <div class="toolbar">
+        <div class="sort-buttons" role="group" aria-label="コメントの並び替え">
+          <button type="button" class="sort active" data-sort="stars" aria-pressed="true">★順</button>
+          <button type="button" class="sort" data-sort="supporters" aria-pressed="false">支持人数順</button>
+          <button type="button" class="sort" data-sort="recent" aria-pressed="false">新着順</button>
+        </div>
+        <span id="shown-count" class="shown-count"></span>
+      </div>
+      <p id="status" class="status" role="status">情報を取得しています…</p>
+      <ol id="comments" class="comments" aria-label="コメント一覧"></ol>
+    </section>
+
+    <section class="account" aria-label="自分のブックマーク">
+      <h2>自分のブックマーク</h2>
+      <div id="account-prompt">
+        <p id="account-prompt-text">Hatena アカウントと接続すると、ここから直接ブックマークできます。</p>
+        <button id="settings" class="secondary-button" type="button">設定を開く</button>
+      </div>
+      <form id="bookmark-form" hidden>
+        <p id="my-bookmark-state" class="my-bookmark-state">自分のブックマークを確認しています…</p>
+        <label for="my-comment">コメント</label>
+        <textarea id="my-comment" rows="3" placeholder="コメントを入力（空欄でも登録できます）"></textarea>
+        <label for="tag-input">タグ</label>
+        <div id="tag-chips" class="tag-chips"></div>
+        <div class="tag-entry"><input id="tag-input" type="text" placeholder="タグを追加"><button id="tag-add" type="button" class="secondary-button">+ タグ</button></div>
+        <div class="form-options"><label><input id="private" type="checkbox"> 非公開</label><label><input id="later" type="checkbox"> あとで読む</label></div>
+        <button id="submit-bookmark" class="submit-button" type="submit" disabled>ブックマークする</button>
+        <p id="form-status" class="form-status" role="status"></p>
+      </form>
+      <div class="fallback"><button id="add" class="fallback-button" type="button" disabled>はてなの画面で登録・編集 ↗</button></div>
+    </section>
+  </main>
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

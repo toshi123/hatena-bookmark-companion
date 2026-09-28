@@ -1,0 +1,338 @@
+{
+  "targetUrl": "https://dailyportalz.jp/kiji/misdo-yamucha",
+  "recordedAt": "2026-09-28T07:41:11.631Z",
+  "sourceSnapshots": {
+    "html": {
+      "bytes": 264922,
+      "sha256": "5c587dbc6e5ffe39c7bab70edb0fc586b20e9696db6234850239579548a4410b",
+      "path": "diagnostics/misdo-yamucha-2026-09-28/raw/hatena-misdo-html.html"
+    },
+    "jsonliteFresh": {
+      "bytes": 18848,
+      "sha256": "91c12257dba3ec83f2896084441af5288efce17a58388f984ab7b5d567960d73",
+      "path": "diagnostics/misdo-yamucha-2026-09-28/raw/hatena-misdo-json.json"
+    },
+    "apiCommentedPage1": {
+      "bytes": 47810,
+      "sha256": "f124cd465ad07575a7bdc3721b4bbc6c8e1b2c9d912553cf3d9800d13571144c",
+      "path": "diagnostics/misdo-yamucha-2026-09-28/raw/hatena-misdo-api-page1.json"
+    },
+    "apiAllPage1": {
+      "bytes": 78644,
+      "sha256": "19c42694c4aa7c5e219821876d6d0c9dd50f7574e54e49d9981032947a31967c",
+      "path": "diagnostics/misdo-yamucha-2026-09-28/raw/hatena-misdo-api-all-page1.json"
+    },
+    "countApi": {
+      "bytes": 3,
+      "sha256": "5d389f5e2e34c6b0bad96581c22cee0be36dcf627cd73af4d4cccacd9ef40cc3",
+      "path": "diagnostics/misdo-yamucha-2026-09-28/raw/hatena-misdo-count.json"
+    }
+  },
+  "sourceCounts": {
+    "countApiBookmarks": 134,
+    "officialHtmlHeadingComments": 50,
+    "officialBrowserVisibleAfterReadmore": 47,
+    "officialBrowserUsersEqualApiUsers": true,
+    "jsonliteFreshComments": 47,
+    "apiAllBookmarksRaw": 99,
+    "apiAllBookmarksNonemptyComments": 47
+  },
+  "audit": {
+    "activeTabUrl": "https://dailyportalz.jp/kiji/misdo-yamucha",
+    "jsonliteNormal": null,
+    "jsonliteFresh": {
+      "requestedUrl": "https://dailyportalz.jp/kiji/misdo-yamucha",
+      "returnedUrl": "https://dailyportalz.jp/kiji/misdo-yamucha",
+      "entryUrl": "https://b.hatena.ne.jp/entry/s/dailyportalz.jp/kiji/misdo-yamucha",
+      "eid": "4760543126532493568",
+      "count": 134,
+      "bookmarksLength": 99,
+      "publicCommentCount": 47,
+      "fetchedAt": "2026-09-28T07:41:11.590Z"
+    },
+    "officialHtmlCommentCount": 50,
+    "initialHtmlRawCount": 40,
+    "initialHtmlRecentRawCount": 30,
+    "initialHtmlPopularRawCount": 10,
+    "initialHtmlAcceptedBeforeDedup": 40,
+    "initialHtmlCursor": "MTcyODg4OTczOCwxMDY2MTAyMjY1OTc2ODU3MzA=",
+    "parsedHtmlComments": 37,
+    "htmlExcludedComments": [],
+    "htmlDuplicateComments": [
+      {
+        "index": 35,
+        "panel": "popular",
+        "user": "tohokuaiki",
+        "eid": "4760543126532493568",
+        "keptIndex": 11
+      },
+      {
+        "index": 36,
+        "panel": "popular",
+        "user": "FliedOkra",
+        "eid": "4760543126532493568",
+        "keptIndex": 3
+      },
+      {
+        "index": 39,
+        "panel": "popular",
+        "user": "asrog",
+        "eid": "4760543126532493568",
+        "keptIndex": 27
+      }
+    ],
+    "pagedComments": 47,
+    "apiPages": [
+      {
+        "page": 1,
+        "cursorIn": null,
+        "cursorOut": null,
+        "rawCount": 47,
+        "acceptedCount": 47,
+        "excludedComments": [],
+        "duplicates": 0,
+        "uniqueCumulative": 47
+      }
+    ],
+    "apiExcludedComments": [],
+    "apiDuplicateComments": [],
+    "paginationStopReason": "cursor-exhausted",
+    "selectedBeforeDedup": 84,
+    "selectedAfterDedup": 47,
+    "deduplicatedComments": [
+      {
+        "index": 47,
+        "user": "kekera",
+        "eid": "4760543126532493568",
+        "keptIndex": 0
+      },
+      {
+        "index": 48,
+        "user": "hobbling",
+        "eid": "4760543126532493568",
+        "keptIndex": 1
+      },
+      {
+        "index": 49,
+        "user": "agrisearch",
+        "eid": "4760543126532493568",
+        "keptIndex": 2
+      },
+      {
+        "index": 50,
+        "user": "FliedOkra",
+        "eid": "4760543126532493568",
+        "keptIndex": 3
+      },
+      {
+        "index": 51,
+        "user": "u4k",
+        "eid": "4760543126532493568",
+        "keptIndex": 4
+      },
+      {
+        "index": 52,
+        "user": "honeybe",
+        "eid": "4760543126532493568",
+        "keptIndex": 5
+      },
+      {
+        "index": 53,
+        "user": "micorico",
+        "eid": "4760543126532493568",
+        "keptIndex": 6
+      },
+      {
+        "index": 54,
+        "user": "mikemade",
+        "eid": "4760543126532493568",
+        "keptIndex": 7
+      },
+      {
+        "index": 55,
+        "user": "tech_no_ta",
+        "eid": "4760543126532493568",
+        "keptIndex": 8
+      },
+      {
+        "index": 56,
+        "user": "tai4oyo",
+        "eid": "4760543126532493568",
+        "keptIndex": 9
+      },
+      {
+        "index": 57,
+        "user": "Chisei",
+        "eid": "4760543126532493568",
+        "keptIndex": 10
+      },
+      {
+        "index": 58,
+        "user": "tohokuaiki",
+        "eid": "4760543126532493568",
+        "keptIndex": 11
+      },
+      {
+        "index": 59,
+        "user": "kamezo",
+        "eid": "4760543126532493568",
+        "keptIndex": 12
+      },
+      {
+        "index": 60,
+        "user": "htnmiki",
+        "eid": "4760543126532493568",
+        "keptIndex": 13
+      },
+      {
+        "index": 61,
+        "user": "lbtmplz",
+        "eid": "4760543126532493568",
+        "keptIndex": 14
+      },
+      {
+        "index": 62,
+        "user": "minboo",
+        "eid": "4760543126532493568",
+        "keptIndex": 15
+      },
+      {
+        "index": 63,
+        "user": "ancock",
+        "eid": "4760543126532493568",
+        "keptIndex": 16
+      },
+      {
+        "index": 64,
+        "user": "kniphofia",
+        "eid": "4760543126532493568",
+        "keptIndex": 17
+      },
+      {
+        "index": 65,
+        "user": "deneb-y",
+        "eid": "4760543126532493568",
+        "keptIndex": 18
+      },
+      {
+        "index": 66,
+        "user": "Falky",
+        "eid": "4760543126532493568",
+        "keptIndex": 19
+      },
+      {
+        "index": 67,
+        "user": "nagi-pikmin",
+        "eid": "4760543126532493568",
+        "keptIndex": 20
+      },
+      {
+        "index": 68,
+        "user": "mithril_flower",
+        "eid": "4760543126532493568",
+        "keptIndex": 21
+      },
+      {
+        "index": 69,
+        "user": "jitensha710",
+        "eid": "4760543126532493568",
+        "keptIndex": 22
+      },
+      {
+        "index": 70,
+        "user": "kumoha683",
+        "eid": "4760543126532493568",
+        "keptIndex": 23
+      },
+      {
+        "index": 71,
+        "user": "m7g6s",
+        "eid": "4760543126532493568",
+        "keptIndex": 24
+      },
+      {
+        "index": 72,
+        "user": "gm91",
+        "eid": "4760543126532493568",
+        "keptIndex": 25
+      },
+      {
+        "index": 73,
+        "user": "lvlf",
+        "eid": "4760543126532493568",
+        "keptIndex": 26
+      },
+      {
+        "index": 74,
+        "user": "asrog",
+        "eid": "4760543126532493568",
+        "keptIndex": 27
+      },
+      {
+        "index": 75,
+        "user": "Shinwiki",
+        "eid": "4760543126532493568",
+        "keptIndex": 28
+      },
+      {
+        "index": 76,
+        "user": "sukekyo",
+        "eid": "4760543126532493568",
+        "keptIndex": 29
+      },
+      {
+        "index": 77,
+        "user": "kazatsuyu",
+        "eid": "4760543126532493568",
+        "keptIndex": 46
+      },
+      {
+        "index": 78,
+        "user": "pribetch",
+        "eid": "4760543126532493568",
+        "keptIndex": 44
+      },
+      {
+        "index": 79,
+        "user": "vbwmle",
+        "eid": "4760543126532493568",
+        "keptIndex": 40
+      },
+      {
+        "index": 80,
+        "user": "doku19",
+        "eid": "4760543126532493568",
+        "keptIndex": 45
+      },
+      {
+        "index": 81,
+        "user": "no-cool",
+        "eid": "4760543126532493568",
+        "keptIndex": 36
+      },
+      {
+        "index": 82,
+        "user": "faifan",
+        "eid": "4760543126532493568",
+        "keptIndex": 35
+      },
+      {
+        "index": 83,
+        "user": "gpx-monya",
+        "eid": "4760543126532493568",
+        "keptIndex": 42
+      }
+    ],
+    "jsonError": null,
+    "htmlError": null,
+    "paginationError": null
+  },
+  "outcome": {
+    "commentSource": "html-fallback",
+    "displayedComments": 47,
+    "headingComments": 50,
+    "incomplete": true,
+    "incompleteReason": "official-count-vs-public-list"
+  },
+  "conclusion": "The official heading says 50, while JSONLite, the completed official page list, and the exhausted public comments API each expose the same 47 comments. No comment was removed by the parser. The identity and reason for the three unexposed comments are unknown; none were fabricated."
+}
